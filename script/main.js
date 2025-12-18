@@ -270,3 +270,9 @@ const animationTimeline = () => {
         tl.restart();
     });
 }
+
+const likeBtn = document.getElementById("likebutton");
+likeBtn.addEventListener("click", () => {
+    window.open("https://wa.me/916230294978?text=Hey!%20Aww,%20thank%20you%20for%20the%20sweet%20birthday%20wish!", "_blank");
+});
+
